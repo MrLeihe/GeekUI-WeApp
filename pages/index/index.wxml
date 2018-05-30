@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container-geek">
+  <view class='top-line'></view>
+  <image class='top-logo' src='../../image/geek.png'></image>
+  <view class='page-title'>
+    <text class='page-title-text'>{{ title }}</text>
+  </view>
+  <view class='cell-group' wx:if='{{ cellList && cellList.length != 0 }}'>
+    <view class='cell-wrapper' wx:for='{{ cellList }}' wx:for-item='cell' wx:key='title' bindtap='navigateTap' data-path='{{ cell.path }}'>
+      <text class='cell'>{{ cell.name }}</text>
+      <view class='arrow-wrapper'>
+        <image class='arrow' src='../../image/arrow.png'></image>
+      </view>
+      <view class='split-line' wx:if='{{ index != cellList.length - 1 }}'></view>
+    </view>
+  </view>
+</view>

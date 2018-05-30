@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/share/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FAFAFA",
+    "navigationBarTitleText": "极客学苑",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f9f9f9"
+  }
+}
