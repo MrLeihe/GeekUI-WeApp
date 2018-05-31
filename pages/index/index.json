@@ -1,4 +1,6 @@
 {
   "usingComponents": {
+    "page-title": "../../components/page-title/index",
+    "cell": "../../components/cell/index"
   }
 }

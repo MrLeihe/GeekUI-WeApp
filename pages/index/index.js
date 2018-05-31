@@ -4,14 +4,14 @@ const app = getApp()
 
 Page({
   data: {
-    title: '分享',
+    pageTitle: '分享',
     cellList: [{ name: '极客', path: '../share/index' }, { name: '学苑', path: '../share/index' }]
   },
 
-  navigateTap: function(e){
-    console.log(e.target.dataset.path);
+  navigateListener: function(e){
+    console.log(e);
     wx.navigateTo({
-      url: e.target.dataset.path,
-    })
+      url: e.detail.path,
+    });
   }
 })

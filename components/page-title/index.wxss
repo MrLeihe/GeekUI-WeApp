@@ -1,0 +1,13 @@
+/* components/page-title/index.wxss */
+
+.page-title{
+  background-color: #f9f9f9;
+  padding-left: 20rpx;
+  padding-top: 15rpx;
+  padding-bottom: 10rpx;
+}
+
+.page-title-text{
+  font-size: 28rpx;
+  color: #999;
+}

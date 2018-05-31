@@ -1,0 +1,43 @@
+/* components/cell/index.wxss */
+
+.cell-group{
+  border-top: 1rpx solid #e5e5e5;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+
+.cell-wrapper{
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.cell{
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  color: #333;
+}
+
+.arrow-wrapper{
+  position: absolute;
+  right: 20rpx;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.split-line{
+  background-color: #e5e5e5;
+  height: 1rpx;
+  position: absolute;
+  bottom: 0;
+  margin-left: 20rpx;
+  width: calc(100% - 20rpx);
+}
