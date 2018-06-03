@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/share/index"
+    "pages/moment/index",
+    "pages/component-share/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",

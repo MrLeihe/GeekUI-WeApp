@@ -1,0 +1,32 @@
+<!--pages/component-share/index.wxml-->
+
+<view class='style-container'>
+  <button class='btn-share' bindtap='handleTapOne'>样式一</button>
+  <button class='btn-share top-margin orange' bindtap='handleTapTwo'>样式二</button>
+  <button class='btn-share top-margin red' bindtap='handleTapThree'>样式三</button>
+  <!-- 样式一 -->
+  <share-one 
+    avatar='{{ shareOne.avatar }}'
+    nickname='{{ shareOne.nickname }}'
+    showShareModel='{{ shareOne.showShareModel }}'
+  ></share-one>
+  <!-- 样式二 -->
+  <share-two 
+    avatar='{{ shareTwo.avatar }}'
+    nickname='{{ shareTwo.nickname }}'
+    incomeMoney='{{ shareTwo.incomeMoney }}'
+    joinNumber='{{ shareTwo.joinNumber }}'
+    joinAvatarList='{{ shareTwo.joinAvatarList }}'
+    adImageUrl='{{ shareTwo.adImageUrl }}'
+    adName='{{ shareTwo.adName }}'
+    adTime='{{ shareTwo.adTime }}'
+    showShareModel='{{ shareTwo.showShareModel }}'
+  ></share-two>
+  <!-- 样式三 -->
+  <share-three
+    avatar='{{ shareThree.avatar }}'
+    nickname='{{ shareThree.nickname }}'
+    awardMoney='{{ shareThree.awardMoney }}'
+    showShareModel='{{ shareThree.showShareModel }}'
+  ></share-three>
+</view>

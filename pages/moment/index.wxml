@@ -1,0 +1,16 @@
+<!--pages/moment/moment.wxml-->
+<view class='moment-root'>
+  <button class='btn-share' bindtap='shareMemontListener'>点击生成朋友圈分享图</button>
+  <canvas canvas-id='myCanvas' class='canvas' style='height: {{ canvasHeight }}px'></canvas>
+
+   <view class="share-model" wx:if="{{ realShow }}">
+    <view class="mask" bindtap="hideDialog"></view>
+    <view class="share-conetent">
+      <image class='share-image' style='width:{{ imageWidth }}px;height:{{ imageHeight }}px' src='{{ targetSharePath }}'></image>
+      <button class='btn-save-local' bindtap='saveImageTap'>保存到手机相册</button>
+    </view>
+    <view class='close-wrppper' bindtap='closeModel'>
+    <image class='close-image' src='../../image/close.png'></image>
+    </view>
+  </view> 
+</view>

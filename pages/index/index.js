@@ -4,8 +4,16 @@ const app = getApp()
 
 Page({
   data: {
-    pageTitle: '分享',
-    cellList: [{ name: '极客', path: '../share/index' }, { name: '学苑', path: '../share/index' }]
+    groupList: [
+      {
+        pageTitle: '分享',
+        cellList: [{ name: 'share 朋友圈分享图', path: '../moment/index' }]
+      },
+      {
+        pageTitle: '组件',
+        cellList: [{ name: 'component 分享组件展示', path: '../component-share/index' }]
+      },
+    ]
   },
 
   navigateListener: function(e){

@@ -1,8 +1,8 @@
 <!--components/cell/index.wxml-->
 <view class='cell-group' wx:if='{{ cellList && cellList.length != 0 }}'>
     <view class='cell-wrapper' wx:for='{{ cellList }}' wx:for-item='cell' wx:key='title' bindtap='navigateTap' data-path='{{ cell.path }}'>
-      <text class='cell'>{{ cell.name }}</text>
-      <view class='arrow-wrapper'>
+      <text class='cell' bindtap='navigateTap'>{{ cell.name }}</text>
+      <view class='arrow-wrapper' bindtap='navigateTap'>
         <image class='arrow' src='../../image/arrow.png'></image>
       </view>
       <view class='split-line' wx:if='{{ index != cellList.length - 1 }}'></view>
