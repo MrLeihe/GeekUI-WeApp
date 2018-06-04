@@ -1,6 +1,6 @@
 <!--pages/moment/moment.wxml-->
 <view class='moment-root'>
-  <button class='btn-share' bindtap='shareMemontListener'>点击生成朋友圈分享图</button>
+  <button class='btn-share' bindtap='shareMemontListener'>点击生成图片</button>
   <canvas canvas-id='myCanvas' class='canvas' style='height: {{ canvasHeight }}px'></canvas>
 
    <view class="share-model" wx:if="{{ realShow }}">

@@ -6,12 +6,12 @@ Page({
   data: {
     groupList: [
       {
-        pageTitle: '分享',
-        cellList: [{ name: 'share 朋友圈分享图', path: '../moment/index' }]
+        pageTitle: '生成图片',
+        cellList: [{ name: 'canvas 生成图片', path: '../moment/index' }]
       },
       {
         pageTitle: '组件',
-        cellList: [{ name: 'component 分享组件展示', path: '../component-share/index' }]
+        cellList: [{ name: 'component 组件展示', path: '../component-share/index' }]
       },
     ]
   },
