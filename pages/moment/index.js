@@ -31,7 +31,7 @@ const contentScale2 = 0.620 + 3 * temp;
 const qrCodeWidthScale = 0.341;
 //二维码高度
 const qrCodeHeightScale = 0.69;
-//奔跑宝文字
+//极客文字
 const bpbScale = 0.91 + temp * 2;
 //识别文字
 const decodeScale = 0.935 + temp * 2;
@@ -212,13 +212,13 @@ Page({
     ctx.setTextAlign('center');
     ctx.fillText(stringUtil.substringStr(that.data.nickname), windowWidth / 2, nicknameHeightScale * windowHeight);
 
-    //绘制文字一起赚
+    //绘制文字超神模式
     ctx.setFillStyle(THEME_COLOR);
     ctx.setFontSize(24);
     ctx.setTextAlign('center');
     ctx.fillText(that.data.detailStr.tip, windowWidth / 2, topTextScale * windowHeight);
 
-    //绘制 奔跑宝小程序
+    //绘制 Geek小程序 文字
     ctx.setFillStyle(TINT_COLOR);
     ctx.setFontSize(16);
     ctx.setTextAlign('center');

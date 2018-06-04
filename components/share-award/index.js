@@ -263,7 +263,7 @@ Component({
       //绘制二维码
       ctx.drawImage(that.data.QRPath, windowWidth * (0.5 - qrCodeWidthScale / 2), qrCodeHeightScale * windowHeight, qrCodeWidthScale * windowWidth, qrCodeWidthScale * windowWidth);
 
-      //绘制 奔跑宝小程序
+      //绘制 Geek 小程序
       ctx.setFillStyle(GRAY_COLOR);
       ctx.setFontSize(16);
       ctx.setTextAlign('center');

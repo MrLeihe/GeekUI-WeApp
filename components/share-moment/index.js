@@ -247,7 +247,7 @@ Component({
       ctx.setTextAlign('center');
       ctx.fillText(that.data.detailStr.tip, windowWidth / 2, topTextScale * windowHeight);
 
-      //绘制 奔跑宝小程序
+      //绘制 Geek小程序
       ctx.setFillStyle(TINT_COLOR);
       ctx.setFontSize(16);
       ctx.setTextAlign('center');
