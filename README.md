@@ -6,6 +6,3 @@
 
 ![image.png](https://upload-images.jianshu.io/upload_images/4240944-750bdfdf830551eb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-:satisfied:
-
-:weary:
