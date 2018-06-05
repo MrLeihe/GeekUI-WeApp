@@ -6,13 +6,10 @@ Page({
   data: {
     groupList: [
       {
-        pageTitle: '生成图片',
-        cellList: [{ name: 'canvas 生成图片', path: '../moment/index' }]
+        pageTitle: '画布',
+        cellList: [{ name: 'canvas 组件演示', path: '../canvas/index' }]
       },
-      {
-        pageTitle: '组件',
-        cellList: [{ name: 'component 组件展示', path: '../component-share/index' }]
-      },
+      
     ]
   },
 

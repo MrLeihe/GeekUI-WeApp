@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/moment/index",
-    "pages/component-share/index"
+    "pages/component-share/index",
+    "pages/canvas/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",

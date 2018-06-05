@@ -21,9 +21,6 @@ button::after{
 
 .canvas {
   width: 100%;
-  position: fixed;
-  top: 9999rpx;
-  left: 0;
 }
 
 /* components/dialog/bpb-dialog.wxss */

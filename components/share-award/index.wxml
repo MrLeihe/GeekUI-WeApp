@@ -6,7 +6,7 @@
     <view class="mask" bindtap="hideDialog"></view>
     <view class="share-conetent" style='position:{{ positionStatus }}'>
       <image class='share-image' style='width:{{ imageWidth }}px;height:{{ imageHeight }}px' src='{{ targetSharePath }}'></image>
-      <button class='btn-save-local' bindtap='saveImageTap'>保存到手机相册</button>
+      <button class='btn-save-local' bindtap='saveImageTap'>保存</button>
     </view>
     <view class='close-wrppper' bindtap='closeModel'>
       <image class='close-image' src='../../image/close.png'></image>

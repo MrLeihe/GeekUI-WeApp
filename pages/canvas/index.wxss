@@ -1,0 +1,5 @@
+/* pages/canvas/index.wxss */
+
+.canvas-container{
+  width: 100%;
+}
