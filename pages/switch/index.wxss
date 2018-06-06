@@ -1,0 +1,8 @@
+
+
+.switch-wrapper{
+  padding: 30rpx 0 30rpx 30rpx;
+  background-color: #fff;
+  margin-top: 50rpx;
+  overflow: hidden;
+}

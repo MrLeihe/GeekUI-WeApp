@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "marquee 跑马灯",
+  "usingComponents": {
+    "marquee": "../../components/marquee/index",
+    "page-title": "../../components/page-title/index"
+  }
+}

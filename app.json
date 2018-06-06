@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/moment/index",
     "pages/component-share/index",
-    "pages/canvas/index"
+    "pages/canvas/index",
+    "pages/marquee/index",
+    "pages/switch/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -11,5 +13,6 @@
     "navigationBarTitleText": "极客学苑",
     "navigationBarTextStyle": "black",
     "backgroundColor": "#f9f9f9"
-  }
+  },
+  "debug": false
 }

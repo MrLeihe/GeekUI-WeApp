@@ -1,0 +1,12 @@
+<view
+  class="geek-switch geek-switch--{{ checked ? 'on' : 'off' }} {{ disabled ? 'geek-swtich--disabled' : '' }}"
+  checked="{{ checked }}"
+  loading="{{ loading }}"
+  disabled="{{ disabled }}"
+  bindtap="handleGeekSwitchChange"
+>
+  <view class="geek-switch__circle">
+    <view hidden="{{ !loading }}" class="geek-switch__loading"></view>
+  </view>
+  <view class="geek-switch__bg"></view>
+</view>

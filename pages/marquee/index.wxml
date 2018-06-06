@@ -1,0 +1,11 @@
+<!--pages/marquee/index.wxml-->
+<page-title
+  pageTitle='文字横向跑马灯'
+></page-title>
+<marquee
+  text="{{ bar.text }}"
+  scrollable="{{ bar.scrollable }}"
+  color='{{ bar.textColor }}'
+  backgroundColor='{{ bar.backgroundColor }}'
+>
+</marquee>

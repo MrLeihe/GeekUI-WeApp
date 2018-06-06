@@ -33,7 +33,7 @@ Page({
 
   navigateListener: function(e){
     wx.navigateTo({
-      url: e.detail.path,
+      url: e.detail.cell.path,
     });
   }
 })

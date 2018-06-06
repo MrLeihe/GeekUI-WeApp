@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "switch 开关按钮",
+  "usingComponents": {
+    "switch": "../../components/switch/index",
+    "panel": "../../components/panel/index"
+  }
+}

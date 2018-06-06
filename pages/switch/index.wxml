@@ -1,0 +1,5 @@
+<panel panelStr='{{ panelStr }}'>
+  <view class='switch-wrapper'>
+    <switch checked="{{sync.checked}}" bind:change="syncChange"></switch>
+  </view>
+</panel>

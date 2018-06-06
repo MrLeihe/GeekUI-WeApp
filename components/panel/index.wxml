@@ -1,0 +1,7 @@
+<!--components/panel/index.wxml-->
+<view>
+  <view class='geek-panel-wrapper'>
+    <text class='geek-panel-text'>{{ panelStr }}</text>
+  </view>
+  <slot></slot>
+</view>
