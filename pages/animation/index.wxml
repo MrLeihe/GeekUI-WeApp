@@ -1,0 +1,5 @@
+
+<view wx:for='{{ groupList }}' wx:for-item='group' wx:key='share'>
+    <page-title pageTitle='{{ group.pageTitle }}'></page-title>
+    <cell cellList='{{ group.cellList }}' bind:navigate='navigateListener'></cell>
+  </view>

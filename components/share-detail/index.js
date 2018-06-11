@@ -138,12 +138,12 @@ Component({
    */
   data: {
     detailStr: {
-      invite: '邀请您加入',
-      bpbMini: '极客学苑小程序',
-      clickToMini: '(长按进入查看)',
-      incomeTitle: '预计收益：',
-      timeTitle: '活动时间：',
-      joinTitle: '已参与'
+      invite: '在疯狂打call',
+      bpbMini: '极客组件库演示小程序',
+      clickToMini: '(啦啦啦啦啦)',
+      incomeTitle: '饿呃呃呃：',
+      timeTitle: '好久不见：',
+      joinTitle: '哈哈哈'
     },
     targetSharePath: null,
     QRPath: '../../image/geek-qr.jpg',

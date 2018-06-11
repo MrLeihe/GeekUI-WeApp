@@ -10,11 +10,13 @@ Page({
         { name: 'marquee 跑马灯', path: '../marquee/index' },
         { name: 'switch 开关按钮', path: '../switch/index' }
         ]
-    },
-    {
+    }, {
+      pageTitle: '动画',
+      cellList: [{ name: 'animation 3D动画', path: '../animation/index' }]
+    }, {
       pageTitle: '画布',
       cellList: [{ name: 'canvas 组件演示', path: '../canvas/index' }]
-    },]
+    }]
   },
 
   navigateListener: function (e) {

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "animation 3D动画",
+  "usingComponents": {
+    "page-title": "../../components/page-title/index",
+    "cell": "../../components/cell/index"
+  }
+}

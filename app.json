@@ -5,12 +5,14 @@
     "pages/component-share/index",
     "pages/canvas/index",
     "pages/marquee/index",
-    "pages/switch/index"
+    "pages/switch/index",
+    "pages/animation/index",
+    "pages/rotateY/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#FAFAFA",
-    "navigationBarTitleText": "极客学苑",
+    "navigationBarTitleText": "GeekUI-WeApp",
     "navigationBarTextStyle": "black",
     "backgroundColor": "#f9f9f9"
   },

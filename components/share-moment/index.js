@@ -72,11 +72,11 @@ Component({
    */
   data: {
     detailStr: {
-      tip: '大吉大利，今晚吃鸡',
-      content: '在极客学苑开启你的超神之路',
-      contentOther: '晚上一起吃鸡，不见不散!',
-      bpbMini: '极客学苑小程序',
-      clickToMini: '(长按开启超神模式)'
+      tip: 'canvas绘制,你值得拥有',
+      content: '极客组件库极客组件库',
+      contentOther: 'canvas，canvas，canvas',
+      bpbMini: '极客组件库演示小程序',
+      clickToMini: '(长按进入学习)'
     },
     canvasHeight: 0,
     imageWidth: 0,

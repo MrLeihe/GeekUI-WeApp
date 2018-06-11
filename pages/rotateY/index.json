@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "3D 翻转动画",
+  "usingComponents": {
+    "geek-btn": "../../components/btn/index"
+  }
+}

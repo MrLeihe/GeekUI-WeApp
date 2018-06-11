@@ -63,7 +63,7 @@ Component({
 
     //金额
     awardMoney: {
-      type: Number,
+      type: String,
       value: 0
     },
 
@@ -85,13 +85,13 @@ Component({
    */
   data: {
     detailStr: {
-      invite: '你的好友邀请你加入',
-      nickInvite: '邀请你加入',
-      bpbMini: '极客小程序',
-      clickToMini: '(长按进入赚钱)',
-      awardContent: 'Geek学苑，你值得拥有!'
+      invite: '学海无涯苦作舟',
+      nickInvite: '蹦萨卡拉卡',
+      bpbMini: '极客组件库演示小程序',
+      clickToMini: '(啦啦啦啦啦啦啦)',
+      awardContent: '我在北方的寒夜里四季如春'
     },
-    awardStr: '我刚领取新手奖励',
+    awardStr: '你在南方的艳阳里',
     targetSharePath: null,
     QRPath: '../../image/geek-qr.jpg',
     avatarPath: null,
@@ -252,7 +252,7 @@ Component({
       ctx.setFillStyle(THEME_COLOR);
       ctx.setFontSize(36);
       ctx.setTextAlign('left');
-      ctx.fillText(that.data.awardMoney + '元', awardWidthScale * windowWidth, awardScale * windowHeight);
+      ctx.fillText(that.data.awardMoney, awardWidthScale * windowWidth, awardScale * windowHeight);
 
       //绘制描述 
       ctx.setFillStyle(NORMAL_COLOR);

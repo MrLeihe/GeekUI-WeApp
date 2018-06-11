@@ -1,0 +1,11 @@
+<!--pages/rotateY/index.wxml-->
+<button class='btn-share' bindtap='animationListener'>翻转动画</button>
+
+<view class='geek-rotate-wrapper'>
+  <view class='geek-rotate-inner {{ showFront? "" : "geek-inner-click" }}'>
+    <!-- 默认前台显示布局 -->
+    <image class='geek-front-transform' src='https://upload-images.jianshu.io/upload_images/4240944-1fab3d2b429fd8af.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240'></image>
+    <!-- 默认背面隐藏布局 -->
+    <image class='geek-back-transform' src='https://upload-images.jianshu.io/upload_images/4240944-6251b28942cbc9f8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240'></image>
+  </view>
+</view>

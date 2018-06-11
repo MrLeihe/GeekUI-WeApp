@@ -44,11 +44,11 @@ Page({
    */
   data: {
     detailStr: {
-      tip: '大吉大利，今晚吃鸡',
-      content: '在极客学苑开启你的超神之路',
-      contentOther: '是兄弟，就来极客学苑砍我!',
-      bpbMini: '极客学苑小程序',
-      clickToMini: '(长按开启超神模式)'
+      tip: 'canvas绘制,你值得拥有',
+      content: '组件库极客组件库',
+      contentOther: 'canvas，canvas，canvas',
+      bpbMini: '组件库演示小程序',
+      clickToMini: '(开始学习)'
     },
     avatar4: 'https://wx.qlogo.cn/mmopen/vi_32/gcs9nfrPIjZSfZvMmVCK81MpPbWqDspNfc2lRLqllfrpYT61RQWNMHXCfzSia7OiapOfXTjYFR6EF7JQZib5MRCdA/132',
     avatar: 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2136187651,870864669&fm=27&gp=0.jpg',
@@ -107,7 +107,7 @@ Page({
     //没有分享图先用 canvas 生成，否则直接预览
     if (that.data.targetSharePath) {
       that.setData({
-        realShow: true
+        realShow: false
       })
     } else {
       that.showLoading();
@@ -249,7 +249,7 @@ Page({
         console.log(res.tempFilePath);
         that.setData({
           targetSharePath: res.tempFilePath,
-          realShow: true
+          realShow: false
         })
       },
       complete: function () {
