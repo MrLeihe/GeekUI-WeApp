@@ -15,7 +15,7 @@
 
 .geek-top-logo{
   width: 100px;
-  height: 100px;
+  height: 89px;
   margin: 40px auto;
   display: block;
 }
